@@ -1,0 +1,13 @@
+import numpy as np
+x = np.arange(1,7,1)
+y = np.arange(8,14,1)
+z = np.concatenate((x,y))
+array1 = np.array([1,3,4,5,6,7]).reshape((2,3))
+array2 = np.array([[7,8,9],[10,11,12]])
+array3 = np.concatenate((array1,array2))
+print(x)
+print(y)
+print(z)
+print(array1)
+print(array2)
+print(array3)
