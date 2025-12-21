@@ -1,0 +1,10 @@
+import numpy as np
+array = np.array([1,3,5,50,50,2,4,6])
+a = np.split(array,[3,5])
+x,y,z = np.split(array,[3,5])
+b = np.split(array,4)
+print(a)
+print(x)
+print(y)
+print(z)
+print(b)
